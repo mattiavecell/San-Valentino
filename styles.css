@@ -1,0 +1,49 @@
+body
+{ 
+  padding: 0;
+  margin: 0;
+  background-color:#ff0000;
+}
+
+.text {
+  width: 70%;
+  margin-left:auto;
+  margin-right:auto;
+  text-align: center;
+  z-index:2;
+
+}
+.text p {
+  color: #fff;
+  font-family:'Dancing Script';
+  font-size: 65px;
+}
+
+.iloveu{
+  font-family: 'Oswald';
+  font-size:40px;
+  color: #fff;
+  width: 70%;
+  text-align: center;
+  margin-left: auto;
+  margin-right : auto;
+}
+#alx {
+  margin-left: auto;
+  margin-right : auto;
+  top: 50px;
+  left: 70%;
+  text-align:center;
+}
+@media only screen and (max-width: 768px) {
+  .flower {
+    width: 150px;
+    height: 150px;
+  }
+  .text p {
+    font-size: 40px;
+  }
+  .iloveu {
+    font-size: 30px;
+  }
+}
